@@ -6,9 +6,28 @@ package com.zipcodewilmington.person;
 public class Person {
     private String name;
     private int age;
+    private int height;
+
+    private int shoeSize;
+
+    private boolean hasDog;
+
+    private String nickName;
+
+    private boolean hasJob;
+
+
+
+
+
     public Person(){
         this.name = "";
         this.age = Integer.MAX_VALUE;
+        this.height = 0;
+        this.nickName = "";
+        this.hasJob = false;
+        this.hasDog = false;
+        this.shoeSize = 0;
     }
 
 
@@ -20,6 +39,7 @@ public class Person {
     public Person(String name) {
         this.name = name;
         }
+
 
     public Person(String name, int age){
         this.name = name;
@@ -41,4 +61,8 @@ public class Person {
         public Integer getAge () {
             return this.age;
         }
+
+       public void
+
+       pub
     }
