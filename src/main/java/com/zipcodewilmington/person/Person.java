@@ -62,7 +62,46 @@ public class Person {
             return this.age;
         }
 
-       public void
 
-       pub
+
+
+    public int getHeight() {
+        return this.height;
     }
+
+    public void setHeight(int height) {
+        this.height = height;
+    }
+
+    public int getShoeSize() {
+        return this.shoeSize;
+    }
+
+    public void setShoeSize(int shoeSize) {
+        this.shoeSize = shoeSize;
+    }
+
+    public boolean hasDog() {
+        return hasDog;
+    }
+
+    public void setHasDog(boolean hasDog) {
+        this.hasDog = hasDog;
+    }
+
+    public String getNickName() {
+        return nickName;
+    }
+
+    public void setNickName(String nickName) {
+        this.nickName = nickName;
+    }
+
+    public boolean hasJob() {
+        return hasJob;
+    }
+
+    public void setHasJob(boolean hasJob) {
+        this.hasJob = hasJob;
+    }
+}
